@@ -1,0 +1,98 @@
+.container {
+  width: 30vw;
+  border: 2px solid rgb(236, 236, 236);
+  display: grid;
+  justify-content: center;
+  /* align-content: center; */
+}
+
+.plan {
+  border-bottom: 2px solid rgb(236, 236, 236);
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+  color: rgb(30, 31, 33);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.details{
+ 
+  text-align: center;
+ 
+  
+}
+
+.price{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.time{
+  color: rgb(118, 123, 127);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+button {
+  border: 1px solid rgb(0, 122, 255);
+  background-color: white;
+  font-size: 17px;
+  color: rgb(0, 122, 255);
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width:500px) {
+  .container {
+    width: 70vw;
+    border: 2px solid rgb(236, 236, 236);
+    display: grid;
+    justify-content: center;
+   
+  }
+  
+  .plan {
+    border-bottom: 2px solid rgb(236, 236, 236);
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+    color: rgb(30, 31, 33);
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  .details{
+   
+    text-align: center;
+   
+    
+  }
+  
+  .price{
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+  .time{
+    color: rgb(118, 123, 127);
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  button {
+    border: 1px solid rgb(0, 122, 255);
+    background-color: white;
+    font-size: 17px;
+    color: rgb(0, 122, 255);
+    padding: 0px 40px;
+    margin-bottom: 20px;
+  }
+  
+}
+
+
